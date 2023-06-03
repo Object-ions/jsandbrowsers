@@ -32,12 +32,11 @@ input{
   background-color: #f8f7ff;
   color: #0b2e97;
   border: solid #0b2e97 0.5px;
-  padding: 5px 100px;
-  width: 5px;
+  width: 320px;
 }
 
 h3{
-  /* color: #ff43a7; */
+  text-transform: capitalize;
   padding: 5px;
 }
 
@@ -46,7 +45,7 @@ h3{
 }
 
 .blue{
-  background-color: #deddf4;
+  background-color: #e6e5ff;
   color: #0b2e97;
   border: solid #0b2e97 0.5px;
   padding: 5px;
@@ -58,6 +57,13 @@ h3{
 
 .hidden{
   display: none;
+}
+.margintop{
+  margin-top: 20px;
+}
+
+.marginbtm{
+  margin-bottom: 20px;
 }
 
 #main-div{
@@ -82,4 +88,8 @@ h3{
 
 div #lang{
   font-weight: 900;
+}
+
+#lastq{
+  margin-bottom: 20px;
 }
