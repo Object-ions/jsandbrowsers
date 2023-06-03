@@ -2,6 +2,7 @@
 
 body {
   background-color: #f9e9eb;
+  color: #0b2e97;
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
@@ -9,8 +10,19 @@ body {
 }
 
 h3{
-  color: #f0a3cc;
+  color: #ff43a7;
   padding: 5px;
+}
+
+.pink{
+  border: solid pink 0.5px;
+}
+
+.blue{
+  background-color: #deddf4;
+  color: #0b2e97;
+  border: solid #0b2e97 0.5px;
+  padding: 5px 100px;
 }
 
 .note{
@@ -25,6 +37,7 @@ h3{
   width: 800px;
   margin: 0 auto;
   background-color: #f9e9eb;
+  /* border: solid pink 1px; */
 }
 
 #head{
@@ -37,7 +50,7 @@ h3{
   text-transform: uppercase;
   font-weight: 700;
   color: #0b2e97;
-  
+  margin-bottom: 80px;
 }
 
 div #lang{
