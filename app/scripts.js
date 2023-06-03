@@ -1,5 +1,8 @@
 
+
 let form = document.querySelector('form');
+let result = '';
+
 form.addEventListener('submit', function submitForm(e) {
   e.preventDefault();
   //assign the varibles values with the target tags
@@ -12,23 +15,23 @@ form.addEventListener('submit', function submitForm(e) {
 
   //creat a branch to check logic
   if (question1 <= 16) {
-    console.log('since you are ' + question1 + ' that is too young to study. come back when you are 16');
+    result = 'since you are ' + question1 + ' that is too young to study. come back when you are 16';
   } else if (question2 === 'no') {
-    console.log('I have nothing to offer you');
+    result = 'I am sorry, I have nothing to offer you';
   } else if (question3 === 'yes') {
-    console.log('congratulations you are a great candid for Python!');
+    result = 'congratulations you are a great candid for Python!';
   } else if (question4 === 'yes') {
-    console.log('congratulations you are a great candid for JavaScript!')
+    result = 'congratulations you are a great candid for JavaScript!';
   } else if (question5 === 'precious') {
-    console.log('congratulations you are a great candid for Ruby');
+    result = 'congratulations you are a great candid for Ruby';
   } else {
-    console.log('congratulations you are a great candid for C#');
+    result = 'congratulations you are a great candid for C#';
   };
 
-  //take the value from the user input and change the text (span) accoring to the value
+  //take the value from the user input and change the text accoring to the value in the paired <span>
+  document.getElementById('q1Span').innerText = result;
 
-  document.getElementById('q1Span').innerText = question1;
-
+  //show the "answer-display" div
   display.removeAttribute('class')
 
 });
