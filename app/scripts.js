@@ -46,5 +46,14 @@ form.addEventListener('submit', function submitForm(e) {
   } else {
     console.log('congratulations you are a great candid for C#');
   }
-
+  console.log(question1);
+  console.log(question1Value);
+  console.log(question2);
+  console.log(question2Value);
+  console.log(question3);
+  console.log(question3Value);
+  console.log(question4);
+  console.log(question4Value);
+  console.log(question5);
+  console.log(question5Value);
 });
