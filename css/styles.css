@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+
 body {
   box-sizing: border-box;
   margin: 0 auto;
@@ -10,4 +12,20 @@ body {
 
 .hidden{
   display: none;
+}
+
+#head{
+  background-image: url('../img/bgsunset.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#lang {
+  font-weight: 900;
+  color: red;
 }
