@@ -23,7 +23,6 @@ form{
 }
 
 label{
-  /* border: purple solid 2px; */
   margin-bottom: 5px;
 }
 
@@ -40,6 +39,24 @@ h3{
   padding: 5px;
 }
 
+button[type="submit"] {
+  color: white;
+  background-color: #0b2e97;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px 0;
+}
+
+button[type="submit"]:hover {
+  background-color: darkblue;
+}
+
+/* classes */
+
 .pink{
   border: solid pink 0.5px;
 }
@@ -52,7 +69,7 @@ h3{
 }
 
 .note{
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .hidden{
@@ -66,11 +83,12 @@ h3{
   margin-bottom: 20px;
 }
 
+/* Id's */
+
 #main-div{
-  width: 800px;
+  width: 600px;
   margin: 0 auto;
   background-color: #f9e9eb;
-  /* border: solid pink 1px; */
 }
 
 #head{
@@ -92,4 +110,8 @@ div #lang{
 
 #lastq{
   margin-bottom: 20px;
+}
+
+#result{
+  font-size: 20px;
 }
