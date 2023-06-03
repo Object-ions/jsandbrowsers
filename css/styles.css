@@ -1,9 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&family=Work+Sans:wght@200;300&display=swap');
 
 body {
+  background-color: #fffcff;
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h3{
+  margin: 0 auto;
+  color: #f0a3cc;
+  background-color: seashell;
+  padding: 5px;
 }
 
 .note{
@@ -20,12 +29,12 @@ body {
   background-position: center;
   padding: 50px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
+  font-weight: 700;
+  
 }
 
-#lang {
+div #lang{
   font-weight: 900;
-  color: red;
 }
