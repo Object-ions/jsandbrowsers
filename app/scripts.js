@@ -6,11 +6,15 @@ form.addEventListener('submit', function submitForm(e) {
   //assign the varibles values with the target tags
   let question1 = document.getElementById('question1');
   let question1Value = document.getElementById('question1').value;
-  // let question2 = document.getElementById('question2').value;
-  // let question3 = document.getElementById('question3').value;
-  // let question4 = document.getElementById('question4').value;
-  // let question5 = document.getElementById('question5').value;
-  // console.log(question1);
+
+  if (question1Value <= 16) {
+    console.log('since you are ' + question1Value + 'that is too young to study. come back when you are 16')
+  } else if {
+
+  }
+
+  //show the valu in the console
+  console.log(question1);
   console.log(question1Value);
   // console.log(question3);
   // console.log(question4);
