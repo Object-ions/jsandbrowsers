@@ -2,7 +2,7 @@
 
 #### By **Moshe Atia Poston**
 
- # _A simple JavaScript app to suggest an answer_
+ _A simple JavaScript app to suggest an answer_
 
 ## Technologies Used
 
