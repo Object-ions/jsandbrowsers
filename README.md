@@ -4,6 +4,8 @@
 
  _A simple JavaScript app to suggest an answer_
 
+_Live demo: [GH-pages](https://object-ions.github.io/jsandbrowsers/)_
+
 ## Technologies Used
 
 * _HTML_
