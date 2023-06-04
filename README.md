@@ -1,10 +1,8 @@
-# _first-submission_
-
-Live demo: [GH-pages](#)
+# _Programming Language Suggester_
 
 #### By **Moshe Atia Poston**
 
-#### _Programming Language Suggester_
+ # _A simple JavaScript app to suggest an answer_
 
 ## Technologies Used
 
