@@ -57,10 +57,6 @@ button[type="submit"]:hover {
 
 /* classes */
 
-.pink{
-  border: solid pink 0.5px;
-}
-
 .blue{
   background-color: #e6e5ff;
   color: #0b2e97;

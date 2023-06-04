@@ -6,7 +6,7 @@ let result = '';
 form.addEventListener('submit', function submitForm(e) {
   e.preventDefault();
 
-  //store user value into varibels according to its question number
+  //store user value into variables according to its question number
   let question1 = parseInt(document.getElementById('question1').value);
   let question2 = document.getElementById('question2').value;
   let question3 = document.getElementById('question3').value;
@@ -16,19 +16,19 @@ form.addEventListener('submit', function submitForm(e) {
 
   console.log(question1);
 
-  //creat a branch to check logic and store the answer in 'result'
+  //create a branch to check logic and store the answer in 'result'
   if (question1 < 16) {
     result = 'since you are ' + question1 + ' that is too young to study. come back when you are 16';
   } else if (question2 === 'no') {
     result = 'I am sorry, I have nothing to offer you';
   } else if (question3 === 'yes') {
-    result = 'congratulations you are a great candid for Python!';
+    result = 'congratulations you are a great candidate for Python!';
   } else if (question4 === 'yes') {
-    result = 'congratulations you are a great candid for JavaScript!';
+    result = 'congratulations you are a great candidate for JavaScript!';
   } else if (question5 === 'precious') {
-    result = 'congratulations you are a great candid for Ruby';
+    result = 'congratulations you are a great candidate for Ruby';
   } else {
-    result = 'congratulations you are a great candid for C#';
+    result = 'congratulations you are a great candidate for C#';
   };
 
   //show the "answer-display" div
