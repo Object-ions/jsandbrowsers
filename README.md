@@ -12,7 +12,7 @@
 
 ## Description
 
-_This project is a dynamic web-based application designed to aid beginners in coding to determine their ideal first programming language. The Suggester has been developed using HTML, CSS, and JavaScript along with Web APIs to provide a responsive and interactive user experience. It works by querying the user with a series of 5 questions based on their interests and coding aspirations. _
+_This project is a dynamic web-based application designed to aid beginners in coding to determine their ideal first programming language. The Suggester has been developed using HTML, CSS, and JavaScript along with Web APIs to provide a responsive and interactive user experience. It works by querying the user with a series of 5 questions based on their interests and coding aspirations._
 
 ## Setup/Installation Requirements
 
