@@ -17,7 +17,7 @@ form.addEventListener('submit', function submitForm(e) {
   console.log(question1);
 
   //create a branch to check logic and store the answer in 'result'
-  if (question1 || question2 === '') {
+  if (question1 === '') {
     result = 'Please enter a vaild answer'
   } else if (question1 < 16) {
     result = 'since you are ' + question1 + ' that is too young to study. come back when you are 16';
