@@ -39,7 +39,7 @@ form.addEventListener('submit', function submitForm(e) {
   //show 'result' on the <span #result> (inside #answer-display)
   document.getElementById('result').innerText = result;
 
-  //clear form answers
+  //clear form from answers
   document.getElementById('question1').value = null;
   document.getElementById('question2').value = null;
   document.getElementById('question3').value = null;
